@@ -1,0 +1,71 @@
+Day 6:
+==========
+
+1) Arithmetic Operators
+==============================
+Used for mathematical calculations.
+Operators: +, -, *, /, // (floor division), % (modulus), ** (power).
+
+Example:
+a = 10
+print(a + 5)   # 15
+print(10 ** 2) # 100
+print(7 % 3)   # 1
+
+
+2) Relational Operators
+===============================
+Used to compare values and return True/False.
+Operators: >, <, >=, <=, ==, !=
+
+Example:
+print(5 > 3)   # True
+print(10 == 20) # False
+
+
+3) Assignment Operators
+===============================
+Used to assign values or update variables.
+Operators: =, +=, -=, *=, /=, //=, %=, **=
+
+Example:
+x = 5
+x += 3   # 8
+
+
+4) Logical Operators
+=============================
+Used to combine conditions.
+Operators: and, or, not
+
+Example:
+print(True and False)  # False
+
+
+5) Membership Operators
+==============================
+Check if a value exists in a sequence.
+Operators: in, not in
+
+Example:
+print(2 in [1,2,3])  # True
+
+
+6) Identity Operators
+=============================
+Check if two objects share the same memory location.
+Operators: is, is not
+
+Example:
+a = b = 10
+print(a is b)  # True
+
+
+7) Bitwise Operators
+============================
+Operate on binary values.
+Operators: & (AND), | (OR), ^ (XOR), ~ (NOT), << (left shift), >> (right shift)
+
+Example:
+print(5 & 3)   # 1
+print(5 << 1)  # 10
